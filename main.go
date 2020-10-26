@@ -53,7 +53,10 @@ func main() {
 		fmt.Scan(&myString)
 		strings = append(strings, myString)
 	}
+	fmt.Println("Imprimir elementos...")
 	showElements(strings)
+	fmt.Println("\nOrdenar elementos ascendentemente...")
 	sortAscAndSave(strings)
+	fmt.Println("\nOrdenar elementos descendentemente...")
 	sortDescAndSave(strings)
 }
